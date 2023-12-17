@@ -1,15 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int get_size();
 
 int main(void)
 {
-    int n = get_size();
-    printf("%d",n);
+    int n = get_int("x: ");
+    printf("%i",n);
 }
 
-int get_size()
-{
-    return 4;
-}
