@@ -4,7 +4,8 @@
 
 int main(void)
 {
-    int n = get_int("x: ");
-    printf("%i",n);
+    int x = get_int("x: ");
+    int y = get_int("x: ");
+    printf("%i",x+y);
 }
 
