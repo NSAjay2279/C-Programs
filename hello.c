@@ -4,6 +4,8 @@
 int main(void)
 
 {
-    int x = get_int("What's x: ");
-    printf("Working? %s , yes!", s);
+    while(3) {
+        int x = get_int("What's x: ");
+        printf("Working? %s , yes!", s);
+    }
 }
