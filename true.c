@@ -3,21 +3,10 @@
 
 int main(void)
 {
-    // Get size of grid
-    int n;
-    do
-    {
-        n = get_int("Enter value of n: ");
-    }
-    while(n<1);
+    int n = get_sizeOfGrid();
+    printf("%d",d);
+}
 
-    // Print grid of bricks
-    for(int i = 0; i < n; i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            printf("#");
-        }
-        printf("\n");
-    }
+int get_sizeOfGrid(){
+    return 4;
 }
