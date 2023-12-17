@@ -4,8 +4,10 @@
 int main(void)
 
 {
-    while(3) {
-        string x = get_string("What's your name: ");
-        printf("Working? %s , yes!", x);
+    while(true) {
+        int x = 1;
+        x++;
+        printf("Working? %d , yes!", x);
+        x++;
     }
 }
