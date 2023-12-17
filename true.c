@@ -4,8 +4,21 @@
 int main(void)
 
 {
-    while(true) {
-        int x = 1;
-        printf("%d", x);
+    for(int i=0;i<3;i++){
+        printf("#");
     }
+
+    printf("\n");
+
+
+    for(int i=0;i<3;i++){
+        printf("#");
+    }
+
+    printf("\n");
+    for(int i=0;i<3;i++){
+        printf("#");
+    }
+
+    printf("\n");
 }
