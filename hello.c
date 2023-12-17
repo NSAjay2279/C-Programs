@@ -1,11 +1,9 @@
 #include <stdio.h>
-import java.util.Scanner;
+#includ <cs50.h>
 
 int main(void)
 
 {
-    printf("Hello, World\n");
-    scanner scan = new Scanner(Sytem.in);
-    string s = scan.nextLine();
+    int x = get_int("What's x: ");
     printf("Working? %s , yes!", s);
 }
