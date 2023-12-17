@@ -3,12 +3,14 @@
 
 int main(void)
 {
-    int counter = 0;
-    for {
-    for(int i=0;i<n;i++){
+    const int n = 3;
+    for(int i=0;i<n;i++) {
+
+    for(int j=0;j<n;j++){
+
         printf("#");
     }
+
     printf("\n");
-    counter++;
     }
 }
