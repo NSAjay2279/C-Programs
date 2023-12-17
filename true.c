@@ -7,7 +7,7 @@ int main(void)
     printf("%d",d);
 }
 
-int get_size()
+int get_size(void)
 {
     return 4;
 }
