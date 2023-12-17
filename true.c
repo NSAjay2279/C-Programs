@@ -7,6 +7,7 @@ int main(void)
     printf("%d",d);
 }
 
-int get_sizeOfGrid(){
+int get_sizeOfGrid()
+{
     return 4;
 }
