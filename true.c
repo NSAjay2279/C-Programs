@@ -5,7 +5,7 @@ int main(void)
 
 {
     while(true) {
-        int x = 1/0;
+        int x = 1;
         printf("%d", x);
     }
 }
