@@ -4,7 +4,7 @@
 int main(void)
 {
     int n = get_size();
-    printf("%d",d);
+    printf("%d",n);
 }
 
 int get_size(void)
