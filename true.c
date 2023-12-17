@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    int n = get_sizeOfGrid();
+    int n = get_size();
     printf("%d",d);
 }
 
-int get_sizeOfGrid()
+int get_size()
 {
     return 4;
 }
