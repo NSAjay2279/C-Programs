@@ -3,18 +3,12 @@
 
 int main(void)
 {
-
     int counter = 0;
-
-    while(counter<n) {
-
+    for {
     for(int i=0;i<n;i++){
         printf("#");
     }
-
     printf("\n");
-
     counter++;
     }
-
 }
