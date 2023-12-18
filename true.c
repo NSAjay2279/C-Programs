@@ -1,8 +1,14 @@
-#include <cs50.h>
 #include <stdio.h>
 
-int main(void) {
-  string s = "H";
+int main() {
+    // Declare an array
+    int myArray[] = {1, 2, 3, 4, 5};
 
-  printf("%s\n", s);
+    // Calculate the length of the array
+    int arrayLength = sizeof(myArray) / sizeof(myArray[0]);
+
+    // Print the length of the array
+    printf("Length of the array: %d\n", arrayLength);
+
+    return 0;
 }
