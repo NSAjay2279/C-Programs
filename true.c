@@ -3,5 +3,5 @@
 int main(void) {
   char c1 = 'h';
 
-  printf("%c\n",c1);
+  printf("%i\n",c1);
 }
