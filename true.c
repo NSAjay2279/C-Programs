@@ -4,5 +4,6 @@
 
 int main() {
    string s = get_int("enter a string: ");
-   printf("%i",strlen(s));
+   int n = strlen(s);
+   printf("%i",n);
 }
