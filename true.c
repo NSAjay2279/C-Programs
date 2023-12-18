@@ -3,6 +3,6 @@
 #include <cs50.h>
 
 int main() {
-   string s = "Hello buddy";
+   string s = get_int("enter a string: ");
    printf("%i",strlen(s));
 }
