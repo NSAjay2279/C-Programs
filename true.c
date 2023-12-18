@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  string s = "Hi";
+  char c1 = 'h';
 
-  printf("%s",s[1]);
-
-  printf(\n);
+  printf("%c\n",c1);
 }
