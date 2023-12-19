@@ -1,4 +1,5 @@
-java.util.*;
+import java.util.Scanner;
+import java.util.Arrays; // Import Arrays for sorting
 
 class Sort {
     public static void main(String[] args) {
@@ -7,13 +8,27 @@ class Sort {
         System.out.println("Enter n value: ");
         int n = scan.nextInt();
 
-        int num[n];
-        System.out.println("Enter " + n + "numbers");
-        for(int i=0; i<n; i++) {
+        int[] num = new int[n]; // Correct syntax for array declaration
+
+        System.out.println("Enter " + n + " numbers");
+        for (int i = 0; i < n; i++) {
             num[i] = scan.nextInt();
         }
+
+        // Sort the array
+        Arrays.sort(num);
+
+        // Print the sorted array
+        System.out.println("Sorted numbers:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(num[i] + " ");
+        }
+
+        // Close the scanner to avoid resource leak
+        scan.close();
     }
 }
+
 
 /*
 int main(void) {
