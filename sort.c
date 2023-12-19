@@ -3,9 +3,7 @@
 
 int main(void) {
     int n = get_int("Enter the value of n\n");
-    for(int i=0; i<n; i++){
-        int num[n] = get_int("enter the %i numbers", n);
-    }
+    int num[n] = get_int("enter the %i numbers", n);
 
     for(int i=0; i<n; i++){
         for(int j=1; i<=n; j++){
