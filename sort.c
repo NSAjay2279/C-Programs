@@ -5,7 +5,7 @@ int main(void) {
     int n = get_int("Enter the value of n\n");
     int num[n];
     for(int i=0; i<n; i++){
-        int num[n] = get_int("enter the %i numbers\n\n", n);
+        int num[i] = get_int("enter the %i numbers: ", i+1);
     }
 
     for(int i=0; i<n; i++){
