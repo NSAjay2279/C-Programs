@@ -13,13 +13,14 @@ class Sort {
             num[i] = scan.nextInt();
         }
 
-        for(int i=0; i<n; i++){
-            for(int j=1; i<=n; j++){
-                num[i] < num[i+j];
+        for(int i=0; i<n; i++) {
+            for(int j=1; i<=n; j++) {
+                if (num[i] > num[i+j]) {
+                    int temp[i] = num[i];
+                    num[i+j] = num[i];
+                    num[i] = temp[i];
+                }
             }
-            int temp[i] = num[i];
-            num[i+j] = num[i];
-            num[i] = temp[i];
         }
 
         System.out.println("Here are the sorted numbers: ");
