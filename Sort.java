@@ -14,18 +14,18 @@ class Sort {
         }
 
         for(int i=0; i<n; i++) {
-            for(int j=1; j<=n; j++) {
+            for(int j=1; j<=n-i-1; j++) {
                 if (num[i] > num[i+j]) {
                     int temp = num[i];
-                    num[i+j] = num[i];
-                    num[i] = temp;
+                    num[i] = num[i+j];
+                    num[i+j] = temp;
                 }
             }
         }
 
         System.out.println("Here are the sorted numbers: ");
         for(int i=0; i<n; i++){
-            System.out.println(num[i] + " ");
+            System.out.print(num[i] + " ");
         }
     }
 }
