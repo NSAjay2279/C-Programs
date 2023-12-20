@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <cs50.h>
 
 void draw(int n);
 
 int main(void)
 {
-    int height = get_int("Height: ");
-    draw(height);
+    draw(4);
+    return 0;  // Add explicit return 0 for clarity
 }
 
 void draw(int n)
@@ -15,7 +14,8 @@ void draw(int n)
     {
         return;
     }
-    draw(n-1);
+
+    draw(n - 1);
 
     for (int i = 0; i < n; i++)
     {
