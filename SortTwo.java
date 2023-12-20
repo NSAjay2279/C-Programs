@@ -14,8 +14,8 @@ class Sort {
         }
 
         for(int i=0; i<n; i++) {
-            for(int j=1; j<=n-i-1; j++) {
-                if (num[i] > num[i+j]) {
+            {
+                if (num[i] < num[i+1]) {
                     int temp = num[i];
                     num[i] = num[i+j];
                     num[i+j] = temp;
