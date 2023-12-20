@@ -1,21 +1,12 @@
 #include <stdio.h>
+#include <cs50.h>
 
 void draw(int n);
-
-int get_int(const char *prompt);
 
 int main(void)
 {
     int height = get_int("Height: ");
     draw(height);
-}
-
-int get_int(const char *prompt)
-{
-    int value;
-    printf("%s", prompt);
-    scanf("%d", &value);
-    return value;
 }
 
 void draw(int n)
