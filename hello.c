@@ -3,9 +3,7 @@
 
 int main()
 {
-    int n = 10;
-    int *p = &n;
-    string t = "HI!\0";
-    printf("%s",t);
+    char *s = "HI!";
+    printf("%s",s[1]);
 
 }
